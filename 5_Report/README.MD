@@ -45,3 +45,81 @@
   .High up-front costs
   
   .Performance standardization has not yet been streamlined.
+  
+  **Test Plan**
+ 
+ # **High level test plan**
+  
+   **H_01**        Check if program is running or not.
+   
+   **H_02**	       Check if circuit connection is correct or not
+   
+   **H_03**	       check if running or not
+
+# Low level test plan
+
+ **L_01**	      requirements showld be appropriate
+  
+ **L_02**	     required software showld be uploaded.
+    
+ **L_03**	     should set a correct directory path
+ 
+ 
+ # **4W's & 1H**
+
+  # **WHY**
+   
+   .In most applications, however, using a single-digit seven-segment display (SSD).
+   
+   .May not be sufficient to display the entire information, hence multiple SSD units are connected in parallel.
+   
+   .In order to display different characters, symbols or numbers
+   
+   .The data being displayed on each SSD has to be different.
+   
+   # **WHAT**
+   
+   .In the case of interfacing a microcontroller with an SSD display,
+   
+   .Using another microcontroller as a driver which acts as a peripheral to the main microcontroller can be very helpful.
+   
+   # **WHEN**
+  
+   .When connected with the appropriate I2C master device which identifies its slave address
+   
+   .The data sent from the master (in this case light intensity) is printed on to the display.
+   
+   # **HOW**
+  
+   .Through seven sigment display we can see the digital time.
+   
+   
+    # **LOW LEVEL REQUIREMENT**
+  
+   **HADWARE COMPONENT**
+   
+     .Hardware components
+     .ATmega328
+     .7 Segment LED Display
+     .General Purpose Transistor NPN
+     .Through Hole Resistor, 680 ohm
+     .16 MHz Crystal
+     .Capacitor 22 pF
+     .Capacitor 10 µF
+     .Capacitor 100 nF
+     .Resistor 10k ohm
+     .SparkFun USB to Serial Breakout - FT232RL
+     .SparkFun USB to Serial Breakout - FT232RL
+     
+   **HIGH LEVEL REQUIREMENT**
+   
+     .AVR compiler,simule ide
+
+# **OUTPUT**
+
+![output1](https://user-images.githubusercontent.com/94208436/144258211-81095e1f-0146-45ab-bdc5-b1a8a98f1cf7.jpeg)
+
+#
+![output2](https://user-images.githubusercontent.com/94208436/144258272-b4262537-1944-4586-bcd7-2968459fed16.jpeg)
+
+
