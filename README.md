@@ -4,6 +4,8 @@
 
 [![static code cppcheck](https://github.com/GOUTHAM-1999/M2_EMBEDDED_Led_Display/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/GOUTHAM-1999/M2_EMBEDDED_Led_Display/actions/workflows/cppcheck.yml)
 
+[![Git Inspector](https://github.com/GOUTHAM-1999/M2_EMBEDDED_Led_Display/actions/workflows/Git_Inspector.yml/badge.svg)](https://github.com/GOUTHAM-1999/M2_EMBEDDED_Led_Display/actions/workflows/Git_Inspector.yml)
+
 . **Folder Structure**
 
  . **Folder Description**
