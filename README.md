@@ -1,5 +1,9 @@
 # M2_EMBEDDED_Led_Display
 
+[![CI](https://github.com/GOUTHAM-1999/M2_EMBEDDED_Led_Display/actions/workflows/main.yml/badge.svg)](https://github.com/GOUTHAM-1999/M2_EMBEDDED_Led_Display/actions/workflows/main.yml)
+
+[![static code cppcheck](https://github.com/GOUTHAM-1999/M2_EMBEDDED_Led_Display/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/GOUTHAM-1999/M2_EMBEDDED_Led_Display/actions/workflows/cppcheck.yml)
+
 . **Folder Structure**
 
  . **Folder Description**
